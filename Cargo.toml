@@ -1,0 +1,10 @@
+[package]
+name = "twitter"
+version = "0.1.0"
+authors = ["Katharina Fey <kookie@spacekookie.de>"]
+
+[dependencies]
+egg-mode = "*"
+tokio-core = "*"
+futures = "*"
+chrono = "*"
