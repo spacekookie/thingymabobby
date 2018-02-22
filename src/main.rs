@@ -32,7 +32,7 @@ fn main() {
         let config = common::Config::load(&mut core);
         let handle = core.handle();
 
-        let thing = format!("Did you know you can make {} with {}, {} and HUMAN LOVE!", words[product], words[first], words[second]);
+        let thing = format!("Did you know you can make {} with {}, {} and human love!", words[product], words[first], words[second]);
         println!("{}", thing);
         
         let draft = DraftTweet::new(thing);
